@@ -1,0 +1,46 @@
+.container_other {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.container_user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.subContainer {
+  text-align: left;
+  justify-self: left;
+  max-width: 300px;
+}
+
+.userName {
+  padding: 5px;
+  color: darkgray;
+  font-size: smaller;
+}
+
+.text_other {
+  padding: 10px;
+  background-color: #d6d1d1;
+  border-radius: 10px;
+  overflow-wrap: break-word;
+}
+
+.text_user {
+  padding: 10px;
+  background-color: #006aff;
+  border-radius: 10px;
+  color: white;
+  overflow-wrap: break-word;
+}
+
+.time {
+  text-align: right;
+  color: darkgray;
+  font-size: xx-small;
+}

@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  padding: 90px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -35,4 +42,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app_form {
+  margin-top: 20px;
+  background-color: rgb(225, 226, 226);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.formControl {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app_input {
+  flex: 1;
 }
